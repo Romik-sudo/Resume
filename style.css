@@ -1,0 +1,89 @@
+
+.wrapper {
+    width: 615px;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.side {
+    width: 240px;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+.side img {
+    border-radius: 50%;
+}
+a {
+    text-decoration: none;
+}
+
+.tools {
+    border-bottom: 2px solid #000;
+    padding-left: 20px;
+}
+.skills {
+ font-size: x-large;
+    line-height: 1.2;
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.Languages {
+    border-bottom: 2px solid #000;
+}
+
+.main {
+    width: 375px;
+    height: 100vh;
+    background-color: cornsilk;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 375px;
+    height: 50px;
+    border-bottom: 2px solid #000;
+}
+.author{
+    font-size: 30px;
+    color: blue;
+    font-family: ui-monospace;
+}
+.text {
+    width: 375px;
+    height: 57px;
+    padding: .5rem;
+}
+
+.info {
+    color: black;
+    padding: .5rem;
+    font-size: 17px;
+    font-family: serif;
+}
+.education{
+    font-size: 20px;
+    padding: .5rem;
+}
+
+.education{
+    font-family: "Cambria Math",sans-serif;
+}
+
+.education p {
+    font-family: "Cambria Math",sans-serif;
+}
+
+.text-inf {
+    padding-left: .5rem;
+    color: black;
+    font-size: 20px;
+}
+.contact {
+    line-height: 22px;
+    padding: .5rem;
+}
