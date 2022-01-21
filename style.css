@@ -1,17 +1,23 @@
-
+body {
+    padding-top: 30px;
+}
 .wrapper {
-    width: 615px;
-    height: 100vh;
+    width: 700px;
+    height: 765px;
     border-radius: 20px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: center;
+    position: relative;
+    flex-direction: row-reverse;
+    background-color: aliceblue;
 }
 .side {
     width: 240px;
-    height: 100vh;
-    background-color: cornflowerblue;
+    height: 765px;
+    margin-left: 40px;
+    border-radius: 20px;
+    background-color: ghostwhite;
 }
 .side img {
     border-radius: 50%;
@@ -21,11 +27,15 @@ a {
 }
 
 .tools {
+    margin-top: 20px;
     border-bottom: 2px solid #000;
     padding-left: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    color: coral;
 }
 .skills {
- font-size: x-large;
+    font-size: large;
     line-height: 1.2;
     padding-left: 20px;
     margin-top: 15px;
@@ -37,8 +47,8 @@ a {
 
 .main {
     width: 375px;
-    height: 100vh;
-    background-color: cornsilk;
+    height: 765px;
+    margin-top: 80px;
 }
 .name {
     display: flex;
@@ -49,19 +59,24 @@ a {
     border-bottom: 2px solid #000;
 }
 .author{
+    padding-bottom: 5px;
     font-size: 30px;
-    color: blue;
     font-family: ui-monospace;
+    font-weight: bold;
+    color: navy;
 }
 .text {
     width: 375px;
     height: 57px;
     padding: .5rem;
+    font-size: x-large;
+    font-weight: bold;
+    color: coral;
 }
 
 .info {
     color: black;
-    padding: .5rem;
+    padding: 0 10px;
     font-size: 17px;
     font-family: serif;
 }
@@ -76,6 +91,7 @@ a {
 
 .education p {
     font-family: "Cambria Math",sans-serif;
+    color: coral;
 }
 
 .text-inf {
@@ -86,4 +102,35 @@ a {
 .contact {
     line-height: 22px;
     padding: .5rem;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 2px solid sandybrown;
+    position: absolute;
+    left: 10px;
+}
+
+
+
+.ring {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: orange;
+    position: absolute;
+    left: 15px;
+    top: 25px;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 2px solid mediumvioletred;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
 }
