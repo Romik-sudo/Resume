@@ -1,6 +1,7 @@
 body {
     padding-top: 30px;
 }
+
 .wrapper {
     width: 700px;
     height: 765px;
@@ -12,6 +13,7 @@ body {
     flex-direction: row-reverse;
     background-color: aliceblue;
 }
+
 .side {
     width: 240px;
     height: 765px;
@@ -19,9 +21,14 @@ body {
     border-radius: 20px;
     background-color: ghostwhite;
 }
+
 .side img {
+   height: 300px;
     border-radius: 50%;
+    border: 1px solid navy;
+    box-shadow: 0 1px 5px navy;
 }
+
 a {
     text-decoration: none;
 }
@@ -34,6 +41,7 @@ a {
     font-weight: bold;
     color: coral;
 }
+
 .skills {
     font-size: large;
     line-height: 1.2;
@@ -41,6 +49,7 @@ a {
     margin-top: 15px;
     margin-bottom: 20px;
 }
+
 .Languages {
     border-bottom: 2px solid #000;
 }
@@ -50,6 +59,7 @@ a {
     height: 765px;
     margin-top: 80px;
 }
+
 .name {
     display: flex;
     justify-content: center;
@@ -58,20 +68,22 @@ a {
     height: 50px;
     border-bottom: 2px solid #000;
 }
-.author{
+
+.author {
     padding-bottom: 5px;
     font-size: 30px;
     font-family: ui-monospace;
     font-weight: bold;
     color: navy;
 }
+
 .text {
     width: 375px;
     height: 57px;
     padding: .5rem;
     font-size: x-large;
     font-weight: bold;
-    color: coral;
+    color: navy;
 }
 
 .info {
@@ -80,18 +92,23 @@ a {
     font-size: 17px;
     font-family: serif;
 }
-.education{
+
+.education {
     font-size: 20px;
     padding: .5rem;
+    font-family: "Cambria Math", sans-serif;
 }
 
-.education{
-    font-family: "Cambria Math",sans-serif;
+.txt_contact {
+    padding: 0;
+    line-height: 1.5;
 }
 
-.education p {
-    font-family: "Cambria Math",sans-serif;
+.txt_contact, .education p {
+    font-family: "Cambria Math", sans-serif;
     color: coral;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 .text-inf {
@@ -99,9 +116,19 @@ a {
     color: black;
     font-size: 20px;
 }
+
 .contact {
-    line-height: 22px;
-    padding: .5rem;
+    line-height: 25px;
+    padding: 0 5px;
+}
+
+.contact li a {
+    vertical-align: middle;
+    color: black;
+}
+
+.contact li img {
+    vertical-align: middle;
 }
 
 .circle {
@@ -112,7 +139,6 @@ a {
     position: absolute;
     left: 10px;
 }
-
 
 
 .ring {
